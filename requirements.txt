@@ -1,0 +1,4 @@
+google-adk==1.7.0
+google-cloud-bigquery[bqstorage,pandas]==3.35.0
+pandas==2.0.3
+numpy==1.26.4
