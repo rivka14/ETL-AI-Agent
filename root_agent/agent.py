@@ -1,5 +1,5 @@
 from google.adk.agents import Agent
-from root_agent.tools import get_schema, execute_script
+from root_agent.tools import upload_file_to_bigquery, get_schema, execute_script
 
 root_agent = Agent(
     name="ETL_agent",
@@ -43,5 +43,5 @@ Simple query template:
 sql_query = "SELECT * FROM {} WHERE condition LIMIT 20".format(full_table_name)
 df = client.query(sql_query).to_dataframe()
 result = {"status": "success", "data": safe_to_dict(df)}""",
-tools=[get_schema,execute_script],
+tools=[upload_file_to_bigquery, get_schema,execute_script],
 )
