@@ -1,6 +1,9 @@
 # ETL AI Agent
 
-A sophisticated ETL (Extract, Transform, Load) AI Agent system built with Google's Agent Development Kit (ADK) for automated BigQuery data operations. This project provides multiple specialized AI agents that can handle various aspects of data processing, from file uploads to complex data analysis and transformations.
+A sophisticated ETL (Extract, Transform, Load) AI Agent system built with Google's Agent Development Kit (ADK) 
+for automated BigQuery data operations. 
+This project provides multiple specialized AI agents that can handle various aspects of data processing, 
+from file uploads to complex data analysis and transformations.
 
 ## 🚀 Overview
 
