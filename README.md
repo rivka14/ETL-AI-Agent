@@ -7,7 +7,8 @@ from file uploads to complex data analysis and transformations.
 
 ## 🚀 Overview
 
-ETL AI Agent is designed to streamline BigQuery operations through intelligent automation. The system consists of three specialized agents, each optimized for specific data tasks:
+ETL AI Agent is designed to streamline BigQuery operations through intelligent automation. 
+The system consists of three specialized agents, each optimized for specific data tasks:
 
 - **Root Agent**: General-purpose BigQuery analyst for data analysis and transformations
 - **Handle File Agent**: Specialized file upload agent for CSV and Parquet files
